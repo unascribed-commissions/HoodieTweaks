@@ -1,0 +1,11 @@
+[
+{
+  "modid": "squakedonequick",
+  "name": "SQuake Done Quick",
+  "description": "Four minor glue features for a challenge map.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["Una Thompson (unascribed)"],
+  "credits": "Commissioned by hoodie"
+}
+]
