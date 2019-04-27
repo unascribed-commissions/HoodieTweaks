@@ -1,4 +1,4 @@
-package com.unascribed.squakedonequick;
+package com.unascribed.hoodietweaks;
 
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
@@ -14,7 +14,7 @@ public class ClientProxy extends Proxy {
 
 	@SubscribeEvent
 	public void onRenderHealth(RenderGameOverlayEvent.Pre e) {
-		if (SQuakeDoneQuick.inst.hideHealth && e.getType() == ElementType.HEALTH) {
+		if (HoodieTweaks.inst.hideHealth && e.getType() == ElementType.HEALTH) {
 			e.setCanceled(true);
 		}
 	}

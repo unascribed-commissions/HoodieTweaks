@@ -1,4 +1,4 @@
-package com.unascribed.squakedonequick;
+package com.unascribed.hoodietweaks;
 
 public class Proxy {
 
